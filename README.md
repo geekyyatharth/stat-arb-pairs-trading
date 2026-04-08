@@ -44,6 +44,21 @@ trading and quantitative research.
 
 | Starting Capital | ₹10,00,000 |
 
+## Portfolio Construction — Strategy Combination
+
+| Metric | Stat-Arb | Momentum | Combined |
+|--------|----------|----------|----------|
+| Sharpe | 0.63 | -0.78 | 0.04 |
+| MDD | -8.86% | -46.9% | -14.7% |
+| Strategy Correlation | — | — | -0.026 |
+
+**Allocation Method:** Inverse Volatility Weighting (Risk Parity lite).
+**Key Finding:** Near-zero strategy correlation (-0.026) confirms genuine
+diversification benefit. Combined MDD of -14.7% vs momentum standalone
+MDD of -46.9% demonstrates capital protection from portfolio construction.
+Momentum underperformance is attributed to single-sector universe — a
+stated limitation addressed in production by expanding to Nifty 200.
+
 
 
 > Transaction costs included: STT (0.1%), brokerage (0.03%), slippage (0.05%)
