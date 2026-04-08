@@ -1,5 +1,5 @@
 # ============================================================
-# FILE: app.py (v3 — production, professional, no emojis)
+# FILE: app.py
 # RUN:  python -m streamlit run app.py
 # ============================================================
 
