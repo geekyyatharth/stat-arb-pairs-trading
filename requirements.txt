@@ -1,0 +1,14 @@
+# requirements.txt
+# Pin minor versions, not patch — allows security fixes without breaking changes
+
+streamlit==1.56.0
+plotly==6.6.0
+pandas==2.2.3
+numpy==1.26.4
+statsmodels==0.14.6
+jugaad-data==0.33.1
+
+# Implicit dependencies — pin for reproducibility
+scipy>=1.11.0
+scikit-learn>=1.3.0        # Used for OLS hedge ratio cross-validation if extended
+matplotlib>=3.7.0
