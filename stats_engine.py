@@ -1,6 +1,4 @@
-# ============================================================
-# FILE: stats_engine.py (v2 — returns window in dict)
-# ============================================================
+# FILE: stats_engine.py 
 
 import pandas as pd
 import numpy as np
